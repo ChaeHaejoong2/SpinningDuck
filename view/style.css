@@ -1,0 +1,36 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	place-items: center;
+}
+.wrapper {
+	width: 50%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	place-items: center;
+}
+.content {
+	text-align: center;
+}
+.duck {
+	width: 20%;
+	object-fit: contain;
+	animation: 8s infinite spin linear;
+	margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
