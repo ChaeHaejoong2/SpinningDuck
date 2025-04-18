@@ -8,6 +8,6 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "view", "index.html"));
 });
 
-app.listen(() => {
+app.listen(8001, () => {
   console.log("server start");
-}, 8001);
+});
