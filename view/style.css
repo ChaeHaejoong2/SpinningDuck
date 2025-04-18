@@ -23,13 +23,13 @@ html, body {
 	object-fit: contain;
 	animation: 8s infinite spin linear;
 	margin-bottom: 20px;
-	@media (max-width: 768px) {
-		.duck {
-			width: 50%;
-		}
-	}
 }
 
+@media (max-width: 768px) {
+	.duck {
+		width: 50%;
+	}
+}
 @keyframes spin {
   0% {
     transform: rotate(0deg);
